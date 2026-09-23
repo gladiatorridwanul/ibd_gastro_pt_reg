@@ -1,0 +1,12 @@
+[04-Mar-2026 17:51:24 Asia/Dhaka] Audit log failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+[04-Mar-2026 23:40:27 Asia/Dhaka] Audit log failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+[05-Mar-2026 23:15:41 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to undefined function csrf_token() in /home/ibdgastroliverbd/public_html/src/modules/documents/add.php:674
+Stack trace:
+#0 /home/ibdgastroliverbd/public_html/public/index.php(280): require_once()
+#1 {main}
+  thrown in /home/ibdgastroliverbd/public_html/src/modules/documents/add.php on line 674
+[06-Mar-2026 00:06:16 Asia/Dhaka] Audit log failed: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+[06-Mar-2026 00:09:35 Asia/Dhaka] Audit log failed: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+[06-Mar-2026 00:11:51 Asia/Dhaka] Audit log failed: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+[06-Mar-2026 14:58:34 Asia/Dhaka] Audit log failed: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+[08-Mar-2026 13:15:35 Asia/Dhaka] Audit log failed: SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
