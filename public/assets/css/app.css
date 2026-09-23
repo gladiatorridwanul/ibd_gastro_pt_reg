@@ -1,0 +1,54 @@
+:root{--brand:#0d6efd}
+body{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'}
+#sidebar{height:100vh; position:sticky; top:0}
+.nav-link{color:#333}
+.nav-link:hover{background:#f5f7fb;border-radius:.375rem}
+.hover-lift{transition:transform .2s ease, box-shadow .2s ease}
+.hover-lift:hover{transform:translateY(-2px); box-shadow:0 .5rem 1rem rgba(0,0,0,.08)}
+
+/* app.css - Custom styles for PMRMS */
+.nav-link {
+    transition: all 0.2s;
+}
+.nav-link:hover {
+    background-color: #e9ecef;
+}
+.nav-link.active {
+    background-color: #007bff;
+    color: white !important;
+}
+.nav-link i {
+    width: 20px;
+    text-align: center;
+}
+#sidebar {
+    transition: all 0.3s;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+}
+#sidebar.d-none {
+    margin-left: -250px;
+}
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.2s;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.table-hover tbody tr:hover {
+    background-color: rgba(0,123,255,0.03);
+}
+.badge {
+    font-weight: 500;
+    padding: 4px 8px;
+}
+.text-pink {
+    color: #d63384;
+}
+.bg-pink {
+    background-color: #d63384;
+}
+.sticky-top {
+    z-index: 1020;
+}
